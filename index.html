@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+ <head>
+  <title>Кафе "Гусиный рай"</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+  <body>
+   <header id="verh">
+    <h1>Сайт кафе</h1>
+    <h2>для постоянных гостей</h2>
+    <form>
+      <input type="text" placeholder="Поиск" id="search">
+      <button id="but">Искать</button>
+    </form>
+    <form>
+      <button id="vhod">Войти</button>
+    </form>
+   </header>
+   <main>
+    <img src="logo.jpg" width="350px" height="200px" id="logo">
+   <div>
+    <a href="#verh">Главная</a>
+    <a href="#onas">О нас</a>
+    <a href="#contacts">Контакты</a>
+   </div>
+   <div class="eco">
+    <h3>Эконом прайс</h3>
+    <ul>
+     <li>Горячий шоколад: 95 грн</li>
+     <li>Кофе со льдом: 95 грн</li>
+     <li>Фраппе: 95 грн</li>
+     <li>Кофе с молоком: 90 грн</li>
+    </ul>
+   </div>
+   <div class="mid">
+    <h3>Средний прайс</h3>
+    <ul>
+     <li>Мокачино: 110 грн</li>
+     <li>Эспрессо: 110 грн</li>
+     <li>Американо: 100 грн</li>
+    </ul>
+   </div>
+   <div class="elite">
+    <h3>Элитный прайс</h3>
+    <ul>
+     <li>Капучино: 125 грн</li>
+     <li>Вьетнамский кофе: 120 грн</li>
+     <li>Кофе по-ирландски: 115 грн</li>
+    </ul>
+   </div>
+   <div>
+    <h2>Сделать заказ</h2>
+    <form>
+     <h3><label for="vibor">Выберите кофе</label></h3>
+     <p class="viborka">Горячий шоколад<input type="checkbox" id="vibor"></p>
+     <p class="viborka">Кофе со льдом<input type="checkbox" id="vibor"></p><br>
+     <p class="viborka">Фраппе<input type="checkbox" id="vibor"></p>     
+     <p class="viborka">Кофе с молоком<input type="checkbox" id="vibor"></p><br>
+     <p class="viborka">Мокачино <input type="checkbox" id="vibor"></p>
+     <p class="viborka">Эспрессо</p><input type="checkbox" id="vibor"><br>
+     <p class="viborka">Американо</p><input type="checkbox" id="vibor">
+     <p class="viborka">Капучино</p><input type="checkbox" id="vibor"><br>
+     <p class="viborka">Вьетнамский кофе</p><input type="checkbox" id="vibor">
+     <p class="viborka">Кофе по-ирландски<input type="checkbox" id="vibor"></p>
+    </form><br><br>
+    <form>
+     <label for="mail">Введите вашу эл.почту:</label><br>
+     <input type="email" id="mail" placeholder="Email" required>
+     <button>Отправить</button>
+    </form><br>
+    <button onclick="show()" id="button">Заказать</button>
+    <p id="zakazik"></p>
+   </div>
+   <div id="onas">
+    <h2>О нас</h2>
+    <h3>Кафе "Гусиный рай" было основано в <time>1867-м году</time> Феликсом Гулоном Макером во <address>Франции, Париж, улица Святого Гуся.</address> Сначала дело шло в упадок, была мысль о закрытии. Но потом на помощь Феликсу пришел его верный друг, у которого дело шло в гору.</h3>
+    <h3>С его помощью дизайн и цены кафе были изменены и посетители начали посещать. Шли годы, кафе менялось, Феликс умер. Дело перешло в руки его сыну, Марку. В его управлении кафе опять ушло в упадок.</h3>
+    <h3>К сожалению, друга как у Феликса не нашлось. Кафе все терпело убытки. Менялись владельцы, пока в конце концов к владению не пришел Феликс Император I Гусиный.</h3>
+    <h3>Он открыл филиалы кафе по всему миру, от Аргентины до Японии. Самое популярное его кафе находится по адресу <address>Австрия, город Вена, улица Йозефштедтер штрассе 25/1.</address></h3>
+    <h3>В его владении кафе процветает и до сих пор цветет и пахнет.</h3>
+    <details><summary>Владельцы кафе</summary>
+      <p>1.Феликс Гулон Макер</p>
+      <p>2.Марк Макер</p>
+      <p>3.Феликс Император I Гусиный</p>
+    </details>
+   </div>
+   </main>
+   <section id="contacts">
+    <h2>Контакты</h2>
+    <h3>Email: gooseparadise.cafe@gmail.com</h3>
+    <h3>Телефон: +99 999 9999</h3>
+   </section>
+   <nav>
+    <h2>Наши соц.сети</h2>
+    <a href="https://www.youtube.com/@i11ush">YouTube</a>
+    <a href="https://instagram.com/i11ush">Instagram</a>
+    <a href="https://www.x.com">X</a>
+    <a href="https://t.me/i11ush">Telegram</a>
+    <a href="https://www.github.com">GitHub</a>
+   </nav>
+   <footer>
+    <h2>Время работы</h2>
+    <h3>Пн-Пт <time>8:00-20:00</time></h3>
+    <h3>Сб-Вс <time>10:00-19:00</time></h3>
+    <p class="copyright">© Goose Paradise</p>
+    <p class="copyright">All rights reserved</p>
+    <p class="copyright">1867-2024</p>
+    <form>
+      <textarea id="comment" maxlength="300" rows="3" placeholder="Ваш комментарий"></textarea>
+      <button id="but2">Отправить</button>
+    </form>
+   </footer>
+   <a href="#verh">Начало</a>
+   <script src="script.js"></script>
+  </body>
+</html>

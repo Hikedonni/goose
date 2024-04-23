@@ -1,0 +1,70 @@
+body {
+ background-color: bisque;
+ text-align: center;
+ font-family: Courier New;
+}
+
+#search {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+
+#but {
+    position: absolute;
+    top: 2px;
+    left: 175px;
+}
+
+#vhod {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+
+#logo {
+    border:solid 2px lightGray; 
+    border-radius:20px;
+}
+
+.eco {
+ text-align: left;
+}
+
+.mid {
+ text-align: left;
+}
+
+.elite {
+ text-align: left;
+}
+
+.viborka {
+    display: inline;
+}
+
+#button {
+ font-family: Courier New;
+ background-color:darksalmon;
+ border: solid 2px black;
+ border-radius: 15px;
+ width: 150px;
+}
+
+#comment {
+    position: absolute;
+    left: 8px;
+    top: 1800px;
+}
+
+#but2 {
+    position: absolute;
+    left: 8px;
+    top: 1860px;
+}
+
+.copyright {
+ text-align: right;
+ font-family: Arial;
+ font-weight: bold;
+}
